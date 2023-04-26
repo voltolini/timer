@@ -47,7 +47,7 @@ const Count = () => {
   });
   return (
     <>
-      <div className="top">We're launching soon</div>
+      <div className="top">Time to Nheco-Nheco</div>
       <div className="numbers_container">
         <div className="card">
           <div className="card_numbers">
