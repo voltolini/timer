@@ -13,7 +13,7 @@ const Count = () => {
   const [hours, setHours] = useState<number>(60 * minutes);
   const [days, setDays] = useState<number>(24 * hours);
 
-  const launchDate = Date.parse("2021-04-29T08:33:37+0000") / 1000;
+  const launchDate = Date.parse("2023-05-22T00:01:59+0000") / 1000;
   const difference = launchDate - Date.now() / 1000;
   const timeDiff = {
     days: Math.floor(difference / days),
